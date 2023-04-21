@@ -1,0 +1,38 @@
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: #6278F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .midias-sociais {
+    width: calc(100%/3);
+    vertical-align: middle;
+    height: 100%;
+    
+}
+
+footer .midias-sociais img {
+    margin-right: 10px;
+}
+
+footer .midias-sociais img:last-child {
+    margin-right: 0px;
+}
+
+footer .logo-organo {
+    width: calc(100%/3);
+    height: 100%;
+    vertical-align: middle;
+}
+
+footer .creditos {
+    font-size: 18px;
+    color: white;
+    width: calc(100%/3);
+    vertical-align: middle;
+    height: 100%;
+}
